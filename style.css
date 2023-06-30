@@ -15,7 +15,7 @@ body, html {
 }
 
 #bigText {
-  font-size: 6em;
+  font-size: 8em;
   font-weight:bold;
   white-space: pre-wrap; /* To respect line breaks and spaces */
   color: #CCCCCC;
