@@ -1,0 +1,39 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #E5E5E5;
+  color: #111111;
+  font-family: sans-serif; /* Add this line */
+}
+
+#scrollArea {
+  padding: 100px;
+  height: 100%;
+  overflow: auto;
+}
+
+#bigText {
+  font-size: 6em;
+  font-weight:bold;
+  white-space: pre-wrap; /* To respect line breaks and spaces */
+  color: #CCCCCC;
+}
+
+#bigText span {
+  transition: color 1s ease;
+}
+
+
+.highlight {
+  background: linear-gradient(180deg, #D43939 0%, #BC0089 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;  /* This will work for Firefox */
+}
+
+
+.spacer {
+  height: 50vh; /* Adjust this value to change the height of the spacers */
+}
